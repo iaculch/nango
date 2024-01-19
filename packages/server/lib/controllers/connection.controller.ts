@@ -307,7 +307,9 @@ class ConnectionController {
                     id: connection.id,
                     connection_id: connection.connection_id,
                     provider_config_key: connection.provider as string,
-                    provider: uniqueKeyToProvider[connection.provider] as string,
+                    provider: connection.provider as string,
+                    integration_id: connection.provider as string,
+                    integration: uniqueKeyToProvider[connection.provider] as string,
                     created: connection.created,
                     metadata: connection.metadata
                 };
