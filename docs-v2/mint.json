@@ -87,9 +87,9 @@
                     ]
                 },
                 {
-                    "group": "Avanced Guides",
+                    "group": "Advanced Guides",
                     "pages": [
-                        "general/ship/advanced-guides/secure-frontend",
+                        "general/ship/advanced/secure-frontend",
                         {
                             "group": "Personalize Per Customer",
                             "pages": [
@@ -106,14 +106,15 @@
                                 "general/ship/advanced/authorization/raw-credentials"
                             ]
                         },
-                        "general/ship/advanced-guides/proxy-requests",
+                        "general/ship/advanced/proxy-requests",
                         {
                             "group": "Webhooks",
                             "pages": [
                                 "general/ship/advanced/app-webhooks",
                                 "general/ship/advanced/external-webhooks"
                             ]
-                        }
+                        },
+                        "general/ship/advanced/error-reporting-and-logging"
                     ]
                 }
             ]
@@ -121,6 +122,7 @@
         {
             "group": "Custom Integrations",
             "pages": [
+                "general/custom/overview",
                 {
                     "group": "Build A Custom Integration",
                     "pages": [
@@ -134,15 +136,18 @@
                     "group": "Advanced Guides",
                     "pages": [
                         "general/custom/advanced/architecture",
-                        "general/custom/guides/api-configuration",
-                        "general/custom/guides/integration-configuration",
-                        "general/custom/guides/nango-runtime",
-                        "general/custom/guides/rate-limits",
-                        "general/custom/guides/sync-types",
-                        "general/custom/guides/custom-field-mappings",
-                        "general/custom/guides/deletions",
-                        "general/custom/guides/pagination",
-                        "general/custom/guides/environment-variables"
+                        "general/custom/advanced/api-configuration",
+                        "general/custom/advanced/integration-configuration",
+                        "general/custom/advanced/nango-runtime",
+                        "general/custom/advanced/runtime-type-validation",
+                        "general/custom/advanced/rate-limits",
+                        "general/custom/advanced/sync-types",
+                        "general/custom/advanced/custom-field-mappings",
+                        "general/custom/advanced/deletions",
+                        "general/custom/advanced/pagination",
+                        "general/custom/advanced/environment-variables",
+                        "general/custom/advanced/unify-data-models",
+                        "general/custom/advanced/handle-errors-in-scripts"
                     ]
                 }
             ]
