@@ -416,6 +416,7 @@ freshbooks:
         base_url: https://api.freshbooks.com
 freshdesk:
     auth_mode: BASIC
+    authorization_url: https://${connectionConfig.subdomain}.freshdesk.com/NOT/REAL # hack: so nango dashboard can request the connection config parameter
     proxy:
         base_url: https://${connectionConfig.subdomain}.freshdesk.com
 freshservice:
